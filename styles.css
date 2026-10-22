@@ -575,7 +575,7 @@ html.lenis, html.lenis body { height: auto; }
 .bento__info svg { width: 28px; height: 28px; color: var(--silver-100); margin-bottom: 6px; }
 .bento__info h3 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.3rem, 1rem + 0.9vw, 1.9rem); letter-spacing: -0.025em; line-height: 1.1; }
 .bento__info p { color: var(--silver-200); font-size: 0.95rem; max-width: 30ch; }
-.bento__cell--industrial img { object-position: 50% 20%; }
+.bento__cell--industrial img { object-position: 25% 45%; }
 
 @media (min-width: 640px) {
   .bento { grid-template-columns: 1fr 1fr; grid-auto-rows: clamp(220px, 34vw, 300px);
@@ -591,7 +591,7 @@ html.lenis, html.lenis body { height: auto; }
 @media (min-width: 1024px) {
   .bento {
     grid-template-columns: repeat(4, 1fr); grid-auto-rows: clamp(210px, 21vw, 300px);
-    grid-template-rows: repeat(3, clamp(210px, 21vw, 300px)) clamp(260px, 28vw, 380px);
+    grid-template-rows: repeat(3, clamp(210px, 21vw, 300px)) clamp(280px, 31vw, 440px);
     grid-template-areas: "cocinas cocinas pisos pisos" "cocinas cocinas banos escaleras" "mesas mesas banos exteriores" "industrial industrial industrial industrial";
   }
 }
